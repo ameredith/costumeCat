@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+    function playSound(){
+        // alert('test');
+        var sound1 = new audio();
+        sound1.src= "i.mp3";
+        document.getElementById(sound1);
+        sound1.Play();
+    }
+
+    function thankYou(){
+      alert('Thanks for submitting!')
+    }
+
+    </script>
+
+      <title> Cat Dress Up </title>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins" rel="stylesheet">
+  </head>
+
+
+<body>
+
+<h1 id="header"> Costume Cat </h1>
+<h5 id ="header"> Click a button below to get started! </h5>
+
+<!-- <img id="game" src ="Octocat.png"> -->
+
+<div id="left">
+<h4 class="sub"> Head </h4>
+<!-- <button type="button" class ="buttonL" onclick="document.getElementById('head').src='astrohelmet.png'; playSound()"> Don't Click </button> -->
+<button type="button" class ="buttonL" onclick="document.getElementById('head').src='astrohelmet.png'"> Astronaut Helmet </button>
+<button type="button" class ="buttonL" onclick="document.getElementById('head').src='hellokittyhat.png'"> Hello Kitty Hat </button>
+<button type="button" class ="buttonL" onclick="document.getElementById('head').src='cowboyhat.png'"> Cowboy Hat </button>
+<button type="button" class ="buttonL" onclick="document.getElementById('head').src='waldohat.png'"> Waldo Hat </button>
+<h4 class="sub"> Clothes</h4>
+<button type="button" class ="buttonL" onclick="document.getElementById('clothes').src='astrosuit.png'"> Astronaut Suit </button>
+<button type="button" class ="buttonL" onclick="document.getElementById('clothes').src='hellokittyclothes.png'"> Hello Kitty </button>
+<button type="button" class ="buttonL" onclick="document.getElementById('clothes').src='cowboyclothes.png'"> Cowboy Clothes </button>
+<button type="button" class ="buttonL" onclick="document.getElementById('clothes').src='waldoclothes.png'"> Waldo Clothes </button>
+</div>
+
+<div id="center">
+  <div id="center-inner">
+    <img id="background" src= "">
+    <img id="cat" src= "genericat.png">
+    <img id="clothes" src= "">
+    <img id="shoes" src= "">
+    <img id="head" src= "">
+  </div>
+
+  <div id= "bottom">
+  <button type="button" class ="buttonB" onclick=
+  "document.getElementById('clothes').src='';
+  document.getElementById('shoes').src='';
+  document.getElementById('head').src='';
+  document.getElementById('background').src=''"> Reset </button>
+  <button type="button" class ="buttonB" onclick= "thankYou()"> Submit </button>
+  </div>
+
+</div>
+
+<div id="right">
+<h4 class="sub"> Backgrounds </h4>
+<button type="button" class ="buttonR"  onclick="document.getElementById('background').src='winter.jpeg'"> Wintertime </button>
+<button type="button" class ="buttonR"  onclick="document.getElementById('background').src='pencil.jpeg'"> Drawing </button>
+<button type="button" class ="buttonR"  onclick="document.getElementById('background').src='baseball.jpeg'"> Baseball </button>
+<button type="button" class ="buttonR"  onclick="document.getElementById('background').src='space.jpeg'"> Space </button>
+<button type="button" class ="buttonR"  onclick="document.getElementById('background').src='beach.jpeg'"> Beach </button>
+<button type="button" class ="buttonR"  onclick="document.getElementById('background').src='wildwest.jpeg'"> Wild West </button>
+<button type="button" class ="buttonR"  onclick="document.getElementById('background').src='mountain.jpeg'"> Mountain </button>
+<button type="button" class ="buttonR"  onclick="document.getElementById('background').src='city.jpeg'"> City </button>
+<button type="button" class ="buttonR"  onclick="document.getElementById('background').src='forest.jpeg'"> Forest </button>
+
+
+</div>
+
+
+
+
+</body>

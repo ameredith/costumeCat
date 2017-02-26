@@ -1,0 +1,160 @@
+body{
+  background-color: #F9F9F9;
+}
+
+
+
+#header {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+#game {
+  display: block;
+  margin: auto;
+}
+
+img{
+  position:absolute;
+  top: 0px;
+  left: 0px;
+}
+.buttonL {
+  left: 10px;
+  padding: 4px 8px;
+  background-color: #b5e8ed;
+  border-radius: 8px;
+  color: black;
+  /*font-family: Verdana;*/
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px;
+  z-index: 10;
+
+}
+
+.buttonL:hover{
+  background-color: #88dbe2;
+}
+
+.buttonR {
+
+  right: 10px;
+  padding: 4px 8px;
+  background-color: #b5e8ed;
+  border-radius: 8px;
+  color: black;
+  /*font-family: Verdana;*/
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px;
+  z-index: 10;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#cat{
+
+  width: 500px;
+  margin-top: 170px;
+  z-index: 1;
+}
+
+#clothes{
+
+  width: 500px;
+  margin-top: 170px;
+  z-index: 2;
+}
+
+#head{
+
+  width: 500px;
+  margin-top: 170px;
+  z-index: 3;
+}
+
+#shoes{
+
+  width: 500px;
+  margin-top: 170px;
+  z-index: 4;
+}
+
+#background{
+  position: absolute;
+  width: 700px;
+  margin-top: 100px;
+  margin-left: -100px;
+  z-index: -1;
+
+}
+
+
+
+.buttonR:hover{
+  background-color: #88dbe2;
+}
+
+.sub{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+#left{
+  position: absolute;
+  /*float: left;*/
+  width: 100px;
+  margin-left: 200px;
+  /*200????*/
+}
+
+#right{
+  position: absolute;
+  right: 10px;
+
+  width: 100px;
+  margin-right: 200px;
+    /*200????*/
+}
+
+#center{
+  position: relative;
+  /*margin-left: 110px;*/
+  /*left: 25%;*/
+}
+
+#center-inner{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: -250px;
+  margin-top: 0px;
+}
+
+#bottom {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 0;
+  margin-top: 700px;
+}
+
+
+.buttonB {
+
+  padding: 8px 16px;
+  background-color: #b5e8ed;
+  border-radius: 8px;
+  color: black;
+  /*font-family: Verdana;*/
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px;
+}
+
+.buttonB:hover{
+  background-color: #88dbe2;
+}
